@@ -3,7 +3,7 @@
 
 <?php foreach ($jokes as $joke): ?>
     <blockquote>
-        <img src="../img/joke_icon.png.jpg" alt="Joke Icon" class="joke-icon">
+        <img src="../img/joke_icon.png" alt="Joke Icon" class="joke-icon">
         
         <div class="joke-content">
             <p>
