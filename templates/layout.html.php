@@ -15,7 +15,8 @@
                 <ul class="nav">
                     <li class="nav-item"><a class="nav-link text-white" href="index.php">Home</a></li>
                     <li class="nav-item"><a class="nav-link text-white" href="jokes.php">Jokes List</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="addjoke.php">Add a new joke</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link text-white" href="addjoke.php">Add a new joke</a></li> -->
+                    <li class="nav-item"><a class="nav-link text-white" href="admin/jokes.php">Admin Jokes</a></li>
                 </ul>
         </nav>
         </div>

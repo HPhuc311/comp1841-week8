@@ -169,3 +169,35 @@ input[type="checkbox"]+label {
 .currentpage:after {
   content: "]";
 }
+
+.author-name-wrapper {
+    display: inline-flex; /* Để icon và tên tác giả nằm trên cùng một dòng */
+    align-items: center; /* Căn chỉnh icon và text theo chiều dọc */
+}
+
+.author-icon {
+    width: 20px; /* Kích thước icon tác giả nhỏ hơn */
+    height: auto;
+    margin-right: 5px; /* Khoảng cách giữa icon và tên tác giả */
+    vertical-align: middle; /* Căn chỉnh icon với text */
+}
+
+/* Các quy tắc khác đã được cập nhật trước đó vẫn giữ nguyên */
+blockquote {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #ccc;
+  padding: 0.5em;
+}
+
+.joke-icon {
+  width: 50px;
+  height: auto;
+  margin-right: 15px;
+  flex-shrink: 0;
+}
+
+.joke-content {
+  flex-grow: 1;
+}
